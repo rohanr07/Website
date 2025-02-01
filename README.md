@@ -1,8 +1,7 @@
 # Website
 This is my Personal Website
 
-UI / UX
-
+`UI / UX`
 🌓 Dark mode support
 📱 Responsive design
 🎨 Modern UI with Tailwind CSS
@@ -10,13 +9,13 @@ UI / UX
 📝 Blog integration (coming soon)
 🖼️ Gallery section (coming soon)
 
-Tech Stack
+`Tech Stack`
 Next.js - React framework
 Tailwind CSS - Styling
 next-themes - Dark mode
 Lucide Icons - Icons
 Getting Started
 
-You can access it online here : `https://v0-rohan-website.vercel.app`
+You can access it online here : https://v0-rohan-website.vercel.app
 
 Thanks 🤓
