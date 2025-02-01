@@ -4,7 +4,7 @@ import { Inter } from "next/font/google"
 import Navigation from "./components/Navigation"
 import { ThemeProvider } from "./components/ThemeProvider"
 import type React from "react"
-
+import { Analytics } from "@vercel/analytics/react"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
@@ -26,6 +26,7 @@ export default function RootLayout({
           <footer className="bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-white text-center py-4">
             © 2024 Rohan Renganathan. All rights reserved.
           </footer>
+          <Analytics />
         </ThemeProvider>
       </body>
     </html>
