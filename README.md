@@ -17,5 +17,7 @@ Lucide Icons - Icons
 Getting Started
 
 You can access it online here : https://v0-rohan-website.vercel.app
+OR
+here : https://rohanr07.github.io/Website/
 
 Thanks 🤓
