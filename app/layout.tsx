@@ -24,7 +24,7 @@ export default function RootLayout({
           <Navigation />
           <main className="container mx-auto px-4 py-8">{children}</main>
           <footer className="bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-white text-center py-4">
-            © 2024 Rohan Renganathan. All rights reserved.
+            © 2025 Rohan Renganathan. All rights reserved.
           </footer>
           <Analytics />
         </ThemeProvider>
