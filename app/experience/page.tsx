@@ -2,6 +2,29 @@ export default function Experience() {
   return (
     <div className="max-w-3xl mx-auto text-gray-800 dark:text-gray-200">
       <h1 className="text-3xl font-bold mb-4">Work Experience</h1>
+
+      <div className="mb-8">
+        <h2 className="text-2xl font-bold mb-2">Systems Analyst | Leading UK Fibre Broadband Provider</h2>
+        <p className="text-gray-600 mb-2">January 2025 – Present</p>
+        <ul className="list-disc pl-5">
+          <li>
+            Currently working through a consultancy placement, diagnosing and triaging system issues within the Systems and Operations BAU team to ensure smooth daily operations
+          </li>
+          <li>
+            Utilize ServiceNow and Jira to manage incidents, prioritize resolutions, and collaborate with internal and third-party teams
+          </li>
+          <li>
+            Facilitate the seamless migration of customer services from legacy infrastructure to a modern centralized platform
+          </li>
+          <li>
+            Conduct technical checks on customer connectivity using supplier portals and Swift’s Radius Diagnostic tool
+          </li>
+          <li>
+            Use Sentry for error logging and Confluence for maintaining up-to-date documentation, contributing to system stability and clarity in operations
+          </li>
+        </ul>
+      </div>
+
       <div className="mb-8">
         <h2 className="text-2xl font-bold mb-2">Software Developer | Dorset Software Services Limited</h2>
         <p className="text-gray-600 mb-2">August 2024 – Present</p>
@@ -36,6 +59,7 @@ export default function Experience() {
           </li>
         </ul>
       </div>
+
       <div className="mb-8">
         <h2 className="text-2xl font-bold mb-2">RedHat | Agile Development Hands on Workshop</h2>
         <p className="text-gray-600 mb-2">February 2024</p>
@@ -50,6 +74,7 @@ export default function Experience() {
           </li>
         </ul>
       </div>
+
       <div className="mb-8">
         <h2 className="text-2xl font-bold mb-2">Arc Recruitment | Retail Manager</h2>
         <p className="text-gray-600 mb-2">June - August 2021</p>
