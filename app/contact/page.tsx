@@ -1,4 +1,4 @@
-import { Mail, Phone, Linkedin, Github } from "lucide-react"
+import { Mail, Phone, Linkedin, Github, Globe, Newspaper } from "lucide-react"
 import Link from "next/link"
 
 export default function Contact() {
@@ -39,8 +39,18 @@ export default function Contact() {
             github.com/rohanr07
           </Link>
         </div>
+        <div className="flex items-center">
+          <Newspaper className="mr-2" />
+          <Link
+            href="https://rq7.hashnode.dev"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            rq7.hashnode.dev
+          </Link>
+        </div>
       </div>
     </div>
   )
 }
-
